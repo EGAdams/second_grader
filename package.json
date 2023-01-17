@@ -1,0 +1,15 @@
+{
+  "name": "second_grader",
+  "version": "1.0.0",
+  "description": "this is the beginning",
+  "main": "index.js",
+  "scripts": {
+    "test": "use jest"
+  },
+  "keywords": [
+    "easy",
+    "ai"
+  ],
+  "author": "EG",
+  "license": "MIT"
+}
