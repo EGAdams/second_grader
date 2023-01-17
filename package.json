@@ -1,15 +1,23 @@
 {
-  "name": "second_grader",
-  "version": "1.0.0",
-  "description": "this is the beginning",
-  "main": "index.js",
-  "scripts": {
-    "test": "use jest"
-  },
-  "keywords": [
-    "easy",
-    "ai"
-  ],
-  "author": "EG",
-  "license": "MIT"
+    "name": "second_grader",
+    "version": "1.0.0",
+    "description": "this is the beginning",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "start": "dotenv -e .env node index.js"
+    },
+    "keywords": [
+        "easy",
+        "ai"
+    ],
+    "author": "EG",
+    "license": "MIT",
+    "dependencies": {
+        "@testing-library/jest-dom": "^5.16.5",
+        "chai": "^4.3.7",
+        "dotenv": "^16.0.3",
+        "jest": "^29.3.1",
+        "openai": "^3.1.0"
+    }
 }
