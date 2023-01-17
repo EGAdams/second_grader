@@ -14,5 +14,7 @@ const response = await openai.createCompletion( {
     frequency_penalty: 0.5,
     presence_penalty: 0.0,
     stop: [ "You:" ],
-} );
+});
+
+console.log( response.data.choices[0].text );
 
